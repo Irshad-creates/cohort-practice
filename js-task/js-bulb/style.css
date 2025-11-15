@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif; 
+  height: 100%;
+  width:100%;
+  background-color: rgb(52, 52, 52);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.bulb{
+    height: 300px;
+    width: 300px;
+    border-radius:50% ;
+    background-color: whitesmoke;
+}
+
+button{
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
