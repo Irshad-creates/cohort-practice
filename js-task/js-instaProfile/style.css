@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width:100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to top,  rgb(157, 33, 171), white, rgb(221, 221, 221));
+}
+
+main{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    height: 30rem;
+    width: 20rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img{
+    margin-top:20px ;
+    height: 70%;
+    width: 90%;
+    border-radius: 16px;
+    background-image: url("/js-task/js-instaProfile/image.png");
+    background-size:cover ;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    color: red;
+}
+
+button{
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    border: none;
+    font-size: 1rem;
+    line-height: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(68, 155, 242);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;    
+}
+button:active{
+    scale: 0.95;
+}
+
+
+.caption{
+    background-color: rgb(48, 43, 43);
+    color: rgb(255, 255, 255);
+    height: 3rem;
+    width: 20rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color: w;
+    display: flex;
+    justify-content: start;
+    align-items: center;gap: 1.5rem;
+}
