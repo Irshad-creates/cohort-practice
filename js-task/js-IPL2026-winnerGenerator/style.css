@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(140, 198, 198);
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 350px;
+    width: 500px;
+    background-color: rgb(240, 255, 242);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 70px;
+    background-color: lightskyblue;
+    padding: 95px 100px;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+button{
+    font-weight: 600;
+    font-size: 20px ;
+    padding: 15px 180px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 10px;  
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.95;
+}
