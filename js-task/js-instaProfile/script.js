@@ -23,29 +23,6 @@
     var img =document.querySelector('.img')
     var heart = document.querySelector('.bigheart')
     var captionHeart =document.querySelector('.caption-heart')
-    // cheart.addEventListener('click',function(){
-    //     if(cheart.classList.contains('ri-heart-3-line')){
-    //         cheart.classList.remove('ri-heart-3-line');
-    //         cheart.classList.add('ri-heart-3-fill');
-    //         cheart.style.color ='red'
-    //     }else{
-    //         cheart.classList.remove('ri-heart-3-fill');
-    //         cheart.classList.add('ri-heart-3-line');
-    //         cheart.style.color ='red'
-    //     }
-    // })
-
-    // img.addEventListener('dblclick', function(){
-    //     heart.style.transform = "scale(1)"
-    //     heart.style.opacity = "0.9"
-        
-        
-    //     setTimeout(function(){
-    //         heart.style.transform = "scale(0)"
-    //         heart.style.opacity = "0.5"
-    //     },1000)
-
-    // })
 
     function likeEffect(){
         heart.style.transform = "scale(1)"
