@@ -33,6 +33,10 @@ main{
     position: relative;
     overflow: hidden;
 }
+
+main:hover{
+    scale:1 ;
+}
 .img{
     margin-top:20px ;
     height: 70%;
