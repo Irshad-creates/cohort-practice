@@ -13,7 +13,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to top,  rgb(157, 33, 171), white, rgb(221, 221, 221));
+    background:linear-gradient(to top,  rgb(157, 33, 171), rgb(226, 124, 124));
 }
 
 main{
@@ -29,6 +29,9 @@ main{
     gap: 0.5rem;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
+    position: relative;
+    overflow: hidden;
 }
 .img{
     margin-top:20px ;
@@ -69,12 +72,26 @@ button:active{
     color: rgb(255, 255, 255);
     height: 3rem;
     width: 20rem;
+    font-size: 1.5rem;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-size: 1.5rem;
     padding-left: 1rem;
-    color: w;
     display: flex;
     justify-content: start;
-    align-items: center;gap: 1.5rem;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+.bigheart{
+    color: red;
+    font-size: 90px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    opacity: 0.7;
+    transform: scale(0);
+    transition: transform 0.1s ease, opacity 0.4s ease;
+    /* transform: translate(-40% -40%); */
+    pointer-events: none;
+
 }
