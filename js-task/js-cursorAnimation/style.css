@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width:100%;
+}
+
+@font-face {
+    font-family:f1;
+    src: url(./ParisSignature.otf);
+}
+body{
+    overflow: hidden;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cursor{
+    transition: all linear 0.1s;
+    mix-blend-mode: difference;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 200px;
+    font-family: f1;
+    font-weight: 400;
+}
