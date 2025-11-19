@@ -18,7 +18,7 @@
             flag = 0
         }
 
-    })
+    }) 
 
     var img =document.querySelector('.img')
     var heart = document.querySelector('.bigheart')

@@ -14,7 +14,7 @@ html, body {
     justify-content: center;
     align-items: center;
     background:linear-gradient(to top,  rgb(157, 33, 171), rgb(226, 124, 124));
-}
+} 
 
 main{
     background-color: rgb(36, 35, 35);
@@ -42,7 +42,7 @@ main:hover{
     height: 70%;
     width: 90%;
     border-radius: 16px;
-    background-image: url("/js-task/js-instaProfile/image.png");
+    background-image: url("image.png");
     background-size:cover ;
 }
 h1{
