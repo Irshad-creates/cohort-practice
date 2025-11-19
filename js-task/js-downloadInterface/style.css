@@ -14,4 +14,56 @@ main {
   height: 100%;
   width: 100%;
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .card {
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+main .card p {
+  padding: 10px;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main .card p span {
+  color: rgb(58, 58, 255);
+}
+main .card .outer {
+  height: 20px;
+  width: 100%;
+  background-color: rgb(222, 222, 222);
+  border-radius: 10px;
+}
+main .card .outer .inner {
+  height: 100%;
+  width: 40%;
+  border-radius: 10px;
+  background-color: rgb(91, 188, 39);
+}
+main .card .bottom {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .card .bottom h2 {
+  font-size: 80px;
+  font-weight: 400;
+  font-family: monospace;
+}
+main .card .bottom button {
+  padding: 20px 25px;
+  background-color: rgb(91, 188, 39);
+  border: none;
+  border: 1px solid black;
+  font-size: 40px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
