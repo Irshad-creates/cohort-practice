@@ -43,7 +43,7 @@ main .card .outer {
 }
 main .card .outer .inner {
   height: 100%;
-  width: 40%;
+  width: 0%;
   border-radius: 10px;
   background-color: rgb(91, 188, 39);
 }
@@ -64,6 +64,11 @@ main .card .bottom button {
   background-color: rgb(91, 188, 39);
   border: none;
   border: 1px solid black;
-  font-size: 40px;
+  font-size: 20px;
   border-radius: 10px;
+  color: black;
+  font-weight: 700;
+}
+main .card .bottom button:active {
+  scale: 0.95;
 }/*# sourceMappingURL=style.css.map */
